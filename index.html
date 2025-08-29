@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Notes</h1>
+      <div class="note-input">
+        <textarea
+          id="note-input"
+          placeholder="Type your note here..."
+        ></textarea>
+
+        <button id="btn">create note+</button>
+        <div id="note-container" class="note-container"></div>
+      </div>
+      <ul>
+        <li>
+          <div id="note">
+            this is note 1 <img src="/img/Pencil.png" />
+            <img src="/img/Trash.png" />
+          </div>
+        </li>
+        <li>
+          <div id="note">
+            this is note 2 <img src="/img/Pencil.png" />
+            <img src="/img/Trash.png" />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="/App.js"></script>
+  </body>
+</html>
