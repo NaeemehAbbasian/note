@@ -18,12 +18,15 @@ h1{
 }
 #note-input {
     width:  80%;
-    /* padding: 50px; */
+    padding: 15px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    /* resize: vertical; */
-    min-height: 100px;
+    border: none;
+    /* border: 10px solidrgb(185, 225, 190)d; */
+    border-radius: 20px;
+    resize: vertical;
+    min-height: 50px;
+    background-color: #b9d2b8;
+
 }
 button {
   color: white;
@@ -35,7 +38,7 @@ button {
   border: none;
   font-size: 28px;
 }
-#note {
+.note {
   color: white;
   background-color: rgb(139, 139, 139);
   width: 500px;

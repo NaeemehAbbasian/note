@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/app.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="container">
       <h1>Notes</h1>
       <div class="note-input">
         <textarea
@@ -16,23 +16,24 @@
         ></textarea>
 
         <button id="btn">create note+</button>
+        </div>
         <div id="note-container" class="note-container"></div>
-      </div>
+      
       <ul>
         <li>
-          <div id="note">
+          <div class="note">
             this is note 1 <img src="/img/Pencil.png" />
             <img src="/img/Trash.png" />
           </div>
         </li>
         <li>
-          <div id="note">
+          <div class="note">
             this is note 2 <img src="/img/Pencil.png" />
             <img src="/img/Trash.png" />
           </div>
         </li>
       </ul>
     </div>
-    <script src="/App.js"></script>
+    <script src="App.js"></script>
   </body>
 </html>
